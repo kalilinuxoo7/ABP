@@ -1,0 +1,26 @@
+[Unit]
+Description=Breeks's distributed currency daemon
+After=network.target
+
+[Service]
+User=breeks
+Group=breeks
+
+Type=forking
+PIDFile=/var/lib/breeksd/breeksd.pid
+
+ExecStart=/usr/bin/breeksd -daemon -pid=/var/lib/breeksd/breeksd.pid \
+          -conf=/etc/breeks/breeks.conf -datadir=/var/lib/breeksd
+
+ExecStop=-/usr/bin/breeks-cli -conf=/etc/breeks/breeks.conf \
+         -datadir=/var/lib/breeksd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

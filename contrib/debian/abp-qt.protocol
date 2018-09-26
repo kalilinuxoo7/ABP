@@ -1,0 +1,11 @@
+[Protocol]
+exec=breeks-qt '%u'
+protocol=breeks
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

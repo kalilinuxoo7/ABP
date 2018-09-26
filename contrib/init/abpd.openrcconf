@@ -1,0 +1,26 @@
+# /etc/conf.d/breeksd: config file for /etc/init.d/breeksd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/breeks/breeks.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/breeksd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/breeksd.pid"
+
+# Where to write breeksd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/breeksd"
+
+# User and group to own breeksd process
+#BITCOIND_USER="breeks"
+#BITCOIND_GROUP="breeks"
+
+# Path to breeksd executable
+#BITCOIND_BIN="/usr/bin/breeksd"
+
+# Nice value to run breeksd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

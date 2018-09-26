@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Breeks
+Comment=Breeks P2P Cryptocurrency
+Comment[fr]=Breeks, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Breeks, eşten eşe kriptografik sanal para birimi
+Exec=breeks-qt %u
+Terminal=false
+Type=Application
+Icon=breeks128
+MimeType=x-scheme-handler/breeks;
+Categories=Office;Finance;

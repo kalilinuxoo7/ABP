@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/translations">
+        <file>locale/abp_bg.ts</file>
+        <file>locale/abp_ca.ts</file>
+        <file>locale/abp_cs.ts</file>
+        <file>locale/abp_da.ts</file>
+        <file>locale/abp_de.ts</file>
+        <file>locale/abp_en_US.ts</file>
+        <file>locale/abp_en.ts</file>
+        <file>locale/abp_es.ts</file>
+        <file>locale/abp_fi.ts</file>
+        <file>locale/abp_fr_FR.ts</file>
+        <file>locale/abp_hr.ts</file>
+        <file>locale/abp_it.ts</file>
+        <file>locale/abp_ja.ts</file>
+        <file>locale/abp_ko_KR.ts</file>
+        <file>locale/abp_nl.ts</file>
+        <file>locale/abp_pl.ts</file>
+        <file>locale/abp_pt_BR.ts</file>
+        <file>locale/abp_pt.ts</file>
+        <file>locale/abp_ro_RO.ts</file>
+        <file>locale/abp_ru.ts</file>
+        <file>locale/abp_sk.ts</file>
+        <file>locale/abp_sv.ts</file>
+        <file>locale/abp_tr.ts</file>
+        <file>locale/abp_uk.ts</file>
+        <file>locale/abp_zh_CN.ts</file>
+        <file>locale/abp_zh_TW.ts</file>
+    </qresource>
+</RCC>
